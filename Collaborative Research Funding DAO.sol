@@ -15,6 +15,7 @@ contract CollaborativeResearchFundingDAO {
         uint256 fundingGoal;
         uint256 currentFunding;
         uint256 deadline;
+        
         bool isActive;
         bool isCompleted;
         mapping(address => uint256) contributions;
